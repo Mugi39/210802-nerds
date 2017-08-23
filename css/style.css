@@ -1,0 +1,23 @@
+body {
+  font-size: 16px;
+  line-height: 24px;
+  color: #283136;
+  font-weight: 400;
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+.slide-title {
+  font-size: 55px;
+  line-height: 55px;
+  color: #000000;
+  font-weight: 700;
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+  font-weight: 700;
+  font-family: "Roboto", "Arial", sans-serif;
+}
