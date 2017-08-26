@@ -1,4 +1,6 @@
 body {
+  margin: 0;
+  padding: 0;
   font-size: 16px;
   line-height: 24px;
   color: #283136;
@@ -6,18 +8,231 @@ body {
   font-family: "Roboto", "Arial", sans-serif;
 }
 
-.slide-title {
-  font-size: 55px;
-  line-height: 55px;
-  color: #000000;
-  font-weight: 700;
-  font-family: "Roboto", "Arial", sans-serif;
+a {
+  text-decoration: none;
 }
 
-h3 {
+h3,
+.filters legend {
   font-size: 18px;
   line-height: 30px;
   color: #000000;
+  font-family: "Roboto", "Arial", sans-serif;
   font-weight: 700;
+  text-transform: uppercase;
+}
+
+.button {
+  font: inherit;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #fb565a;
+  border: none;
+}
+
+.button:hover{
+  background-color: #e74246;
+}
+
+.button:active {
+  background-color: #d7373b;
+  color: #e17a7c;
+}
+
+
+
+
+.main-header {
+  background-color: #cccccc;
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.site-navigation,
+.basket {
+  list-style: none;
+}
+
+.site-navigation a,
+.basket a {
+  color: #000000;
+}
+
+.site-navigation a:hover,
+.basket a:hover {
+  color: #fb565a;
+}
+
+.site-navigation a:active,
+.basket a:active {
+  color: #a6a6a6;
+}
+
+.main-slider {
+  background-color: #cccccc;
+}
+
+.slide-title,
+.page-title {
+  font-size: 55px;
+  line-height: 55px;
+  color: #000000;
   font-family: "Roboto", "Arial", sans-serif;
 }
+
+.catalog-popup {
+  text-align: center;
+}
+
+.catalog-popup p {
+  color: #666666;
+}
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-list a {
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.filters ul {
+  list-style: none;
+}
+
+
+
+.advantages-list {
+  list-style: none;
+}
+
+.advantages-item h3 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.studio h2 {
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.studio h3 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.studio ul {
+  list-style: none;
+}
+
+.catalog-navigation ul {
+  list-style: none;
+}
+
+.catalog-navigation a {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #b2b2b2;
+}
+
+.catalog-navigation a:hover {
+  color: #666666;
+}
+
+.catalog-navigation a:active {
+  color: #000000;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.short-descr .strong {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.discounts h2 {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+uy
