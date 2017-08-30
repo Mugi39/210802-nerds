@@ -55,6 +55,7 @@ h3,
 .main-navigation {
   font-size: 16px;
   line-height: 30px;
+  font-weight: 700;
   color: #000000;
   text-transform: uppercase;
 }
@@ -89,13 +90,17 @@ h3,
   line-height: 55px;
   color: #000000;
   font-family: "Roboto", "Arial", sans-serif;
+  text-transform: none;
 }
+
+
+
 
 .catalog-popup {
   text-align: center;
 }
 
-.catalog-popup p {
+.catalog-popup .catalog-item-title {
   color: #666666;
 }
 
@@ -110,36 +115,42 @@ h3,
   color: #000000;
 }
 
-.filters ul {
+.filters .filters-list {
   list-style: none;
 }
-
-
 
 .advantages-list {
   list-style: none;
 }
 
-.advantages-item h3 {
+.advantages-item .advantages-item-title {
   font-size: 24px;
   line-height: 30px;
 }
 
-.studio h2 {
+.studio .studio-title {
   font-size: 45px;
   line-height: 45px;
 }
 
-.studio h3 {
+.studio .sutdio-subtitle {
   font-size: 16px;
   line-height: 24px;
 }
 
-.studio ul {
+.studio .studio-list {
   list-style: none;
 }
 
-.catalog-navigation ul {
+.short-descr .strong {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 700;
+  color: #000000;
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+.catalog-navigation .catalog-navigation-list {
   list-style: none;
 }
 
@@ -158,18 +169,14 @@ h3,
   color: #000000;
 }
 
-.footer-social ul {
+
+
+
+.footer-social .footer-social-list {
   list-style: none;
 }
 
-.short-descr .strong {
-  font-size: 45px;
-  line-height: 45px;
-  font-weight: 700;
-  color: #000000;
-}
-
-.discounts h2 {
+.discounts .discounts-title {
   font-size: 36px;
   line-height: 36px;
 }
