@@ -231,7 +231,9 @@ a.basket-link::before {
 #btn-controls-1:checked ~ .slider-controls label[for="btn-controls-1"],
 #btn-controls-2:checked ~ .slider-controls label[for="btn-controls-2"],
 #btn-controls-3:checked ~ .slider-controls label[for="btn-controls-3"] {
-  background:#c1c1c1;
+  background-image: url('../img/slider-button.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 .slide{
   position:absolute;
@@ -704,6 +706,7 @@ a.basket-link::before {
 .catalog-navigation-controls {
   position: relative;
   width: 40px;
+  margin-left: auto;
 }
 
 .delta-down::after {
@@ -954,7 +957,7 @@ fieldset:first-child legend {
 
 .filter-button {
   width: 260px;
-  margin-top: 50px;
+  margin-top: 30px;
   color: #000000;
   background-color: #eeeeee;
 }
