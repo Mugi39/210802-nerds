@@ -65,7 +65,7 @@ input[type="radio"].visually-hidden {
   cursor: pointer;
 }
 
-.button:hover{
+.button:hover {
   background-color: #e74246;
 }
 
@@ -127,6 +127,20 @@ input[type="radio"].visually-hidden {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   width: 600px;
+}
+
+.site-navigation-current {
+  position: relative;
+}
+
+.site-navigation-current::after {
+  content: "";
+  position: absolute;
+  right: 25px;
+  bottom: 10px;
+  left: 25px;
+  height: 2px;
+  background-color: #fb565a;
 }
 
 .basket {
@@ -1064,4 +1078,113 @@ fieldset:first-child legend {
 
 .discounts p {
   margin: 0;
+}
+
+.modal {
+  position: fixed;
+  color: #000000;
+  background-color: #ffffff;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.75),
+              0 -5px 20px -10px rgba(0, 0, 0, 0.75);
+  z-index: 1000;
+}
+
+.modal-write-us {
+  display: none;
+  bottom: 180px;
+  left: 50%;
+  margin-left: -480px;
+  width: 760px;
+  padding: 65px 100px 80px;
+}
+
+.write-us-form {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.write-us-form label {
+  font-weight: 700;
+}
+
+
+.name-block,
+.email-block {
+  width: 360px;
+}
+
+.text-block {
+  width: 760px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 78px;
+  right: 90px;
+  width: 21px;
+  height: 21px;
+  font-size: 0;
+  background-image: url('../img/modal-close.svg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #ffffff;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.modal-close:hover {
+  background-image: url('../img/modal-close-hover.svg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.modal-close:active {
+  background-image: url('../img/modal-close-active.svg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.modal-write-us h2 {
+  margin: 0;
+  margin-bottom: 35px;
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.modal-write-us p {
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.modal-write-us input,
+.modal-write-us textarea {
+  box-sizing: border-box;
+  width: 360px;
+  margin-top: 5px;
+  padding: 10px 15px;
+  font: inherit;
+  color: #000000;
+  border: 2px solid #d7dcde;
+  border-radius: 2px;
+  outline: none;
+}
+
+.modal-write-us textarea {
+  width: 760px;
+}
+
+.modal-write-us input:focus,
+.modal-write-us textarea:focus {
+  border-color: #000000;
+}
+
+.write-us-btn {
+  margin-top: 25px;
+  width: 260px;
 }
