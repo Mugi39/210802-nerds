@@ -713,6 +713,11 @@ a.basket-link::before {
   margin-top: 80px;
 }
 
+.contacts .container {
+  position: relative;
+  height: 100%;
+}
+
 .contacts .maps {
   position: relative;
   width: 1440px;
@@ -739,10 +744,10 @@ a.basket-link::before {
 }
 
 .contacts-info {
-  position: absolute;
+  /*position: absolute;*/
   width: 220px;
-  top: 54px;
-  left: 140px;
+  /*top: 54px;*/
+  /*left: 140px;*/
   padding: 50px;
   background-color: #fff;
   z-index: 3;
