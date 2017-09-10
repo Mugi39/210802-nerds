@@ -720,19 +720,8 @@ a.basket-link::before {
 
 .contacts .maps {
   position: relative;
-  width: 1440px;
   margin: 0 auto;
 
-}
-
-
-.maps img {
-  position: absolute;
-  width: 1440px;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  margin: 0;
 }
 
 .maps iframe {
@@ -744,10 +733,9 @@ a.basket-link::before {
 }
 
 .contacts-info {
-  /*position: absolute;*/
+  position: absolute;
   width: 220px;
-  /*top: 54px;*/
-  /*left: 140px;*/
+  top: 54px;
   padding: 50px;
   background-color: #fff;
   z-index: 3;
